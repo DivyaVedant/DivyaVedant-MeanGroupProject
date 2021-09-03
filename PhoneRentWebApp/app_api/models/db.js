@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const dbURI = 'mongodb+srv://mobilerenalDB:admin123@cluster0.sai6h.mongodb.net/mobilerentalDB?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://mobilerentalDB:admin123@cluster0.q19sx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 mongoose.connect(dbURI, {dbName:'mobilerentdb'});
 require('./users');
 require('./mobiles');
